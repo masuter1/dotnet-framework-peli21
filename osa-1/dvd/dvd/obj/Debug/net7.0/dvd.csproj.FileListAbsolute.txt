@@ -1,0 +1,15 @@
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\dotnet-framework\osa-1\dvd\dvd\bin\Debug\net7.0\dvd.exe
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\dotnet-framework\osa-1\dvd\dvd\bin\Debug\net7.0\dvd.deps.json
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\dotnet-framework\osa-1\dvd\dvd\bin\Debug\net7.0\dvd.runtimeconfig.json
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\dotnet-framework\osa-1\dvd\dvd\bin\Debug\net7.0\dvd.dll
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\dotnet-framework\osa-1\dvd\dvd\bin\Debug\net7.0\dvd.pdb
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\dotnet-framework\osa-1\dvd\dvd\obj\Debug\net7.0\dvd.csproj.AssemblyReference.cache
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\dotnet-framework\osa-1\dvd\dvd\obj\Debug\net7.0\dvd.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\dotnet-framework\osa-1\dvd\dvd\obj\Debug\net7.0\dvd.AssemblyInfoInputs.cache
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\dotnet-framework\osa-1\dvd\dvd\obj\Debug\net7.0\dvd.AssemblyInfo.cs
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\dotnet-framework\osa-1\dvd\dvd\obj\Debug\net7.0\dvd.csproj.CoreCompileInputs.cache
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\dotnet-framework\osa-1\dvd\dvd\obj\Debug\net7.0\dvd.dll
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\dotnet-framework\osa-1\dvd\dvd\obj\Debug\net7.0\refint\dvd.dll
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\dotnet-framework\osa-1\dvd\dvd\obj\Debug\net7.0\dvd.pdb
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\dotnet-framework\osa-1\dvd\dvd\obj\Debug\net7.0\dvd.genruntimeconfig.cache
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\dotnet-framework\osa-1\dvd\dvd\obj\Debug\net7.0\ref\dvd.dll

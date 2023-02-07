@@ -1,0 +1,15 @@
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\dotnet-framework\osa-1\dvd\dvd\bin\Debug\net7.0-windows\dvd.exe
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\dotnet-framework\osa-1\dvd\dvd\bin\Debug\net7.0-windows\dvd.deps.json
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\dotnet-framework\osa-1\dvd\dvd\bin\Debug\net7.0-windows\dvd.runtimeconfig.json
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\dotnet-framework\osa-1\dvd\dvd\bin\Debug\net7.0-windows\dvd.dll
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\dotnet-framework\osa-1\dvd\dvd\bin\Debug\net7.0-windows\dvd.pdb
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\dotnet-framework\osa-1\dvd\dvd\obj\Debug\net7.0-windows\dvd.csproj.AssemblyReference.cache
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\dotnet-framework\osa-1\dvd\dvd\obj\Debug\net7.0-windows\dvd.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\dotnet-framework\osa-1\dvd\dvd\obj\Debug\net7.0-windows\dvd.AssemblyInfoInputs.cache
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\dotnet-framework\osa-1\dvd\dvd\obj\Debug\net7.0-windows\dvd.AssemblyInfo.cs
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\dotnet-framework\osa-1\dvd\dvd\obj\Debug\net7.0-windows\dvd.csproj.CoreCompileInputs.cache
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\dotnet-framework\osa-1\dvd\dvd\obj\Debug\net7.0-windows\dvd.dll
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\dotnet-framework\osa-1\dvd\dvd\obj\Debug\net7.0-windows\refint\dvd.dll
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\dotnet-framework\osa-1\dvd\dvd\obj\Debug\net7.0-windows\dvd.pdb
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\dotnet-framework\osa-1\dvd\dvd\obj\Debug\net7.0-windows\dvd.genruntimeconfig.cache
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\dotnet-framework\osa-1\dvd\dvd\obj\Debug\net7.0-windows\ref\dvd.dll
