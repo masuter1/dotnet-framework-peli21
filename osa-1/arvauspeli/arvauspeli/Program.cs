@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
 using System.Collections.Generic;
+using Microsoft.Win32.SafeHandles;
 
 class Program
 {
@@ -97,14 +98,29 @@ class Program
         Console.WriteLine($"Arvauspeli!\nKoita arvata luku {min} ja {max} välillä");
         while (true)
         {
+            int count = 0;
             int arvaus = NroLukija("Kirjoita arvaus: ");
             Console.WriteLine($"Arvasit {arvaus}");
             arvaukset.Add(arvaus);
-            arvaukset.Sort();
 
             if (arvaus == salaisuus)
             {
                 Console.WriteLine($"Oikein. Salainen luku oli {salaisuus}.\nKäytit {arvaukset.Count} arvausta");
+            }
+            else if (arvaus < salaisuus)
+            {
+                Console.WriteLine("Oikea luku on suurempi");
+            }
+            else
+            {
+                Console.WriteLine("Oikea luku on pienempi");
+            }
+            
+            Console.WriteLine("Edelliset arvaukset");
+            foreach (int g in arvaukset)
+            {
+                count++;
+                Console.WriteLine($"{g}\t{count}");
             }
         }
     }

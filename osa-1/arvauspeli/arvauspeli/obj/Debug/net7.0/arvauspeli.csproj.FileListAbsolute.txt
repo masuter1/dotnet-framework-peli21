@@ -1,0 +1,15 @@
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\dotnet-framework\osa-1\arvauspeli\arvauspeli\obj\Debug\net7.0\arvauspeli.csproj.AssemblyReference.cache
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\dotnet-framework\osa-1\arvauspeli\arvauspeli\obj\Debug\net7.0\arvauspeli.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\dotnet-framework\osa-1\arvauspeli\arvauspeli\obj\Debug\net7.0\arvauspeli.AssemblyInfoInputs.cache
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\dotnet-framework\osa-1\arvauspeli\arvauspeli\obj\Debug\net7.0\arvauspeli.AssemblyInfo.cs
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\dotnet-framework\osa-1\arvauspeli\arvauspeli\obj\Debug\net7.0\arvauspeli.csproj.CoreCompileInputs.cache
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\dotnet-framework\osa-1\arvauspeli\arvauspeli\bin\Debug\net7.0\arvauspeli.exe
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\dotnet-framework\osa-1\arvauspeli\arvauspeli\bin\Debug\net7.0\arvauspeli.deps.json
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\dotnet-framework\osa-1\arvauspeli\arvauspeli\bin\Debug\net7.0\arvauspeli.runtimeconfig.json
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\dotnet-framework\osa-1\arvauspeli\arvauspeli\bin\Debug\net7.0\arvauspeli.dll
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\dotnet-framework\osa-1\arvauspeli\arvauspeli\bin\Debug\net7.0\arvauspeli.pdb
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\dotnet-framework\osa-1\arvauspeli\arvauspeli\obj\Debug\net7.0\arvauspeli.dll
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\dotnet-framework\osa-1\arvauspeli\arvauspeli\obj\Debug\net7.0\refint\arvauspeli.dll
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\dotnet-framework\osa-1\arvauspeli\arvauspeli\obj\Debug\net7.0\arvauspeli.pdb
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\dotnet-framework\osa-1\arvauspeli\arvauspeli\obj\Debug\net7.0\arvauspeli.genruntimeconfig.cache
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\dotnet-framework\osa-1\arvauspeli\arvauspeli\obj\Debug\net7.0\ref\arvauspeli.dll
