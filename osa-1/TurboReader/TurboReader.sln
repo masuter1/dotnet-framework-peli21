@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TurboReader", "TurboReader\TurboReader.csproj", "{7E836B19-61D2-4F59-9661-840E19C113F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E836B19-61D2-4F59-9661-840E19C113F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E836B19-61D2-4F59-9661-840E19C113F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E836B19-61D2-4F59-9661-840E19C113F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E836B19-61D2-4F59-9661-840E19C113F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {597DB1DB-0D4A-4C90-8771-B25A042A9FD4}
+	EndGlobalSection
+EndGlobal

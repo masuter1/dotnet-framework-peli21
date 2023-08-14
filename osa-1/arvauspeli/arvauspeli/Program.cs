@@ -2,32 +2,14 @@
 using System.Linq;
 using System.Collections.Generic;
 using Microsoft.Win32.SafeHandles;
+using TurboReader;
 
 class Program
 {
-    public static int NroLukija(string prompt)
-    {
-        int arvaus = 0;
-        while (true)
-        {
-            Console.Write(prompt);
-            string arvausTeksi = Console.ReadLine();
-            try
-            {
-                arvaus = Convert.ToInt32(arvausTeksi);
-                break;
-            }
-            catch (FormatException)
-            {
-                Console.WriteLine("et antanut numeroa");
-                continue;
-            }
-        }
-        return arvaus;
-    }
 
     public static void Main(string[] args)
     {
+        // arvotaan luku
         Random rng = new Random();
         int min = 1; int max = 20;
         for (int i = 0; i < args.Length; i++)
@@ -99,7 +81,7 @@ class Program
         while (true)
         {
             int count = 0;
-            int arvaus = NroLukija("Kirjoita arvaus: ");
+            int arvaus = ThatInput.NroLukija("Kirjoita arvaus: ");
             Console.WriteLine($"Arvasit {arvaus}");
             arvaukset.Add(arvaus);
 
