@@ -3,6 +3,7 @@ using System.Linq;
 using System.Collections.Generic;
 using Microsoft.Win32.SafeHandles;
 using TurboReader;
+using Fclp;
 
 class Program
 {
@@ -11,68 +12,18 @@ class Program
     {
         // arvotaan luku
         Random rng = new Random();
-        int min = 1; int max = 20;
-        for (int i = 0; i < args.Length; i++)
-        {
-            string parametri;
-            int colonIndex = args[i].IndexOf(':');
-            if (colonIndex >= 0)
-            {
-                parametri = args[i].Substring(0, colonIndex);
-            }
-            else
-            {
-                parametri = args[i];
-            }
-            switch (parametri.ToLower())
-            {
-                case "-min":
-                    if (colonIndex >= 0)
-                    {
-                        int valueStartIndex = colonIndex + 1;
-                        try
-                        {
-                            min = Convert.ToInt32(args[i].Substring(valueStartIndex, args[i].Length - valueStartIndex));
-                        }
-                        catch (FormatException)
-                        {
-                            Console.WriteLine($"Odotettiin numeroa parametrille {parametri.ToLower()}. Käytetään oletusta ({min})");
-                        }
-                    }
-                    else
-                    {
-                        ++i;
-                        Console.WriteLine($"Odotettiin min-parametrille annettavaksi numeroa arvoksi. Käytetään oletusta ({min})");
-                        return;
-                    }
-                    break;
+        int min; int max;
 
-                case "-max":
-                    if (colonIndex >= 0)
-                    {
-                        int valueStartIndex = colonIndex + 1;
-                        try
-                        {
-                            max = Convert.ToInt32(args[i].Substring(valueStartIndex, args[i].Length - valueStartIndex));
-                        }
-                        catch (FormatException)
-                        {
-                            Console.WriteLine($"Odotettiin numeroa parametrille {parametri.ToLower()}. Käytetään oletusta ({max})");
-                        }
-                    }
-                    else
-                    {
-                        ++i;
-                        Console.WriteLine($"Odotettiin max-parametrille annettavaksi numeroa arvoksi. Käytetään oletusta ({max})");
-                        return;
-                    }
-                    break;
-                default:
-                    System.Console.WriteLine("Unrecognized parameter \"{0}\".", parametri);
-                    return;
-            }
+        // parametrit
+        var p = new FluentCommandLineParser();
 
-        }
+        p.Setup<int>('m')
+            .Callback(minVal => min = minVal)
+            .SetDefault(1);
+        p.Parse(args);
+
+        
+
         int salaisuus = rng.Next(min, max + 1);
 
         List<int> arvaukset = new List<int>();

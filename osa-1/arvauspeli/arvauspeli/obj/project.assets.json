@@ -1,11 +1,45 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "FluentCommandLineParser/1.4.3": {
+        "type": "package",
+        "compile": {
+          "lib/net35/FluentCommandLineParser.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net35/FluentCommandLineParser.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "FluentCommandLineParser/1.4.3": {
+      "sha512": "5NiwUPXtGXL7g+ydFVvSrlUjdOR0rhEMVg+NJtB8d8ckNRrCu0zSiKCRXdpCBjR0rEkdYhmJFDhhDbvjP4Zv5g==",
+      "type": "package",
+      "path": "fluentcommandlineparser/1.4.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fluentcommandlineparser.1.4.3.nupkg.sha512",
+        "fluentcommandlineparser.nuspec",
+        "lib/net35-Client/FluentCommandLineParser.dll",
+        "lib/net35-Client/FluentCommandLineParser.dll.CodeAnalysisLog.xml",
+        "lib/net35-Client/FluentCommandLineParser.xml",
+        "lib/net35/FluentCommandLineParser.dll",
+        "lib/net35/FluentCommandLineParser.pdb",
+        "lib/net35/FluentCommandLineParser.xml"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "FluentCommandLineParser >= 1.4.3"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\s2101048\\.nuget\\packages\\": {}
@@ -45,6 +79,12 @@
     "frameworks": {
       "net7.0": {
         "targetAlias": "net7.0",
+        "dependencies": {
+          "FluentCommandLineParser": {
+            "target": "Package",
+            "version": "[1.4.3, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -64,5 +104,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'FluentCommandLineParser 1.4.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "FluentCommandLineParser",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

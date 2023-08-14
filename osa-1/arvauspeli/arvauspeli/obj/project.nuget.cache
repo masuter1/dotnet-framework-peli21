@@ -1,8 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "ZoKpgEcIKkjRy5ehcpG3ko/Gz2dmp/5P0T9xBc0cZpKSpoBZGrKauwrRjVNl5RCC2Ds2XbXxc318TM9nNPRX8Q==",
+  "dgSpecHash": "Jx+hcu/zSfRFU2rHxvtegI20HslhWgQsbIzSeEtSLqq/Xyhj+MVyJe3T7dkQVrATu3pK9YBxMBkhMC2f5fzVYA==",
   "success": true,
   "projectFilePath": "C:\\Users\\s2101048\\OneDrive - Business College Helsinki\\Työpöytä\\dotnet-framework\\osa-1\\arvauspeli\\arvauspeli\\arvauspeli.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "expectedPackageFiles": [
+    "C:\\Users\\s2101048\\.nuget\\packages\\fluentcommandlineparser\\1.4.3\\fluentcommandlineparser.1.4.3.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'FluentCommandLineParser 1.4.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "FluentCommandLineParser",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

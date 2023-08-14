@@ -1,0 +1,101 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{66EAB2B9-A8F5-43CB-B347-CAB57C924359}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>arvauspeli_FCLP</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FluentCommandLineParser, Version=1.4.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\FluentCommandLineParser.1.4.3\lib\net35-Client\FluentCommandLineParser.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".vs\arvauspeli\DesignTimeBuild\.dtbcache.v2" />
+    <None Include=".vs\arvauspeli\FileContentIndex\791ad124-cb55-4034-858b-8df4870a9952.vsidx" />
+    <None Include=".vs\arvauspeli\FileContentIndex\d8f05fa5-2b09-4b36-bb8f-fb387b4dfa45.vsidx" />
+    <None Include=".vs\arvauspeli\FileContentIndex\read.lock" />
+    <None Include=".vs\arvauspeli\v17\.futdcache.v2" />
+    <None Include=".vs\arvauspeli\v17\.suo" />
+    <None Include=".vs\ProjectEvaluation\arvauspeli.metadata.v5.2" />
+    <None Include=".vs\ProjectEvaluation\arvauspeli.metadata.v6.1" />
+    <None Include=".vs\ProjectEvaluation\arvauspeli.projects.v5.2" />
+    <None Include=".vs\ProjectEvaluation\arvauspeli.projects.v6.1" />
+    <None Include="arvauspeli\arvauspeli.csproj" />
+    <None Include="arvauspeli\bin\Debug\net7.0\arvauspeli.deps.json" />
+    <None Include="arvauspeli\bin\Debug\net7.0\arvauspeli.runtimeconfig.json" />
+    <None Include="arvauspeli\obj\arvauspeli.csproj.nuget.dgspec.json" />
+    <None Include="arvauspeli\obj\arvauspeli.csproj.nuget.g.props" />
+    <None Include="arvauspeli\obj\arvauspeli.csproj.nuget.g.targets" />
+    <None Include="arvauspeli\obj\Debug\net7.0\arvauspeli.AssemblyInfoInputs.cache" />
+    <None Include="arvauspeli\obj\Debug\net7.0\arvauspeli.assets.cache" />
+    <None Include="arvauspeli\obj\Debug\net7.0\arvauspeli.csproj.AssemblyReference.cache" />
+    <None Include="arvauspeli\obj\Debug\net7.0\arvauspeli.csproj.BuildWithSkipAnalyzers" />
+    <None Include="arvauspeli\obj\Debug\net7.0\arvauspeli.csproj.CoreCompileInputs.cache" />
+    <None Include="arvauspeli\obj\Debug\net7.0\arvauspeli.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="arvauspeli\obj\Debug\net7.0\arvauspeli.genruntimeconfig.cache" />
+    <None Include="arvauspeli\obj\project.assets.json" />
+    <None Include="arvauspeli\obj\project.nuget.cache" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="arvauspeli\obj\Debug\net7.0\.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" />
+    <Compile Include="arvauspeli\obj\Debug\net7.0\arvauspeli.AssemblyInfo.cs" />
+    <Compile Include="arvauspeli\obj\Debug\net7.0\arvauspeli.GlobalUsings.g.cs" />
+    <Compile Include="arvauspeli\Program.cs" />
+    <Compile Include="arvauspeli\ThatInput.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="arvauspeli\bin\Debug\net7.0\arvauspeli.dll" />
+    <Content Include="arvauspeli\bin\Debug\net7.0\arvauspeli.exe" />
+    <Content Include="arvauspeli\bin\Debug\net7.0\arvauspeli.pdb" />
+    <Content Include="arvauspeli\obj\Debug\net7.0\apphost.exe" />
+    <Content Include="arvauspeli\obj\Debug\net7.0\arvauspeli.csproj.FileListAbsolute.txt" />
+    <Content Include="arvauspeli\obj\Debug\net7.0\arvauspeli.dll" />
+    <Content Include="arvauspeli\obj\Debug\net7.0\arvauspeli.pdb" />
+    <Content Include="arvauspeli\obj\Debug\net7.0\refint\arvauspeli.dll" />
+    <Content Include="arvauspeli\obj\Debug\net7.0\ref\arvauspeli.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".vs\arvauspeli FCLP\v17\" />
+    <Folder Include=".vs\arvauspeli\FileContentIndex\merges\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>
