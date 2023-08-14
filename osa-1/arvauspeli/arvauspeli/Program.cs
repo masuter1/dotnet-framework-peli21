@@ -12,14 +12,17 @@ class Program
     {
         // arvotaan luku
         Random rng = new Random();
-        int min; int max;
+        int min = 0; int max = 1;
 
         // parametrit
         var p = new FluentCommandLineParser();
 
-        p.Setup<int>('m')
+        p.Setup<int>("min")
             .Callback(minVal => min = minVal)
             .SetDefault(1);
+        p.Setup<int>("max")
+            .Callback(maxVal => max = maxVal)
+            .SetDefault(20);
         p.Parse(args);
 
         
@@ -39,6 +42,7 @@ class Program
             if (arvaus == salaisuus)
             {
                 Console.WriteLine($"Oikein. Salainen luku oli {salaisuus}.\nKäytit {arvaukset.Count} arvausta");
+                return;
             }
             else if (arvaus < salaisuus)
             {

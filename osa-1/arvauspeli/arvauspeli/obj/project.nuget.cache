@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Jx+hcu/zSfRFU2rHxvtegI20HslhWgQsbIzSeEtSLqq/Xyhj+MVyJe3T7dkQVrATu3pK9YBxMBkhMC2f5fzVYA==",
+  "dgSpecHash": "aCKMWsu59rthu58KcQdU0bfabtjcu8Rp2iafa3wRLYR/+po45gTAcCJ/PC/vISMRFGOAYPYd/wP3uJ4GeqU76Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\s2101048\\OneDrive - Business College Helsinki\\Työpöytä\\dotnet-framework\\osa-1\\arvauspeli\\arvauspeli\\arvauspeli.csproj",
+  "projectFilePath": "C:\\Users\\Mico\\Desktop\\School\\dotnet-framework-peli21\\osa-1\\arvauspeli\\arvauspeli\\arvauspeli.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\s2101048\\.nuget\\packages\\fluentcommandlineparser\\1.4.3\\fluentcommandlineparser.1.4.3.nupkg.sha512"
+    "C:\\Users\\Mico\\.nuget\\packages\\fluentcommandlineparser\\1.4.3\\fluentcommandlineparser.1.4.3.nupkg.sha512"
   ],
   "logs": [
     {
