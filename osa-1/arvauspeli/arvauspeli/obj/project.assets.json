@@ -42,24 +42,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mico\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\s2101048\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mico\\Desktop\\School\\dotnet-framework-peli21\\osa-1\\arvauspeli\\arvauspeli\\arvauspeli.csproj",
+      "projectUniqueName": "C:\\Users\\s2101048\\OneDrive - Business College Helsinki\\Työpöytä\\dotnet-framework\\osa-1\\arvauspeli\\arvauspeli\\arvauspeli.csproj",
       "projectName": "arvauspeli",
-      "projectPath": "C:\\Users\\Mico\\Desktop\\School\\dotnet-framework-peli21\\osa-1\\arvauspeli\\arvauspeli\\arvauspeli.csproj",
-      "packagesPath": "C:\\Users\\Mico\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mico\\Desktop\\School\\dotnet-framework-peli21\\osa-1\\arvauspeli\\arvauspeli\\obj\\",
+      "projectPath": "C:\\Users\\s2101048\\OneDrive - Business College Helsinki\\Työpöytä\\dotnet-framework\\osa-1\\arvauspeli\\arvauspeli\\arvauspeli.csproj",
+      "packagesPath": "C:\\Users\\s2101048\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\s2101048\\OneDrive - Business College Helsinki\\Työpöytä\\dotnet-framework\\osa-1\\arvauspeli\\arvauspeli\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Mico\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\s2101048\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -106,7 +101,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.307\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   },

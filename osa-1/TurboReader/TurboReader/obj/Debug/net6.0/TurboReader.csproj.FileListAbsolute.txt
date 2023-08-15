@@ -1,0 +1,12 @@
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\dotnet-framework\osa-1\TurboReader\TurboReader\bin\Debug\net6.0\TurboReader.deps.json
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\dotnet-framework\osa-1\TurboReader\TurboReader\bin\Debug\net6.0\TurboReader.dll
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\dotnet-framework\osa-1\TurboReader\TurboReader\bin\Debug\net6.0\TurboReader.pdb
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\dotnet-framework\osa-1\TurboReader\TurboReader\obj\Debug\net6.0\TurboReader.csproj.AssemblyReference.cache
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\dotnet-framework\osa-1\TurboReader\TurboReader\obj\Debug\net6.0\TurboReader.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\dotnet-framework\osa-1\TurboReader\TurboReader\obj\Debug\net6.0\TurboReader.AssemblyInfoInputs.cache
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\dotnet-framework\osa-1\TurboReader\TurboReader\obj\Debug\net6.0\TurboReader.AssemblyInfo.cs
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\dotnet-framework\osa-1\TurboReader\TurboReader\obj\Debug\net6.0\TurboReader.csproj.CoreCompileInputs.cache
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\dotnet-framework\osa-1\TurboReader\TurboReader\obj\Debug\net6.0\TurboReader.dll
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\dotnet-framework\osa-1\TurboReader\TurboReader\obj\Debug\net6.0\refint\TurboReader.dll
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\dotnet-framework\osa-1\TurboReader\TurboReader\obj\Debug\net6.0\TurboReader.pdb
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\dotnet-framework\osa-1\TurboReader\TurboReader\obj\Debug\net6.0\ref\TurboReader.dll

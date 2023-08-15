@@ -1,8 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "5WMyX96ISxLWpwRc5XB1/ohqWr4nfJvUgEKBMaWskYcOU5S6D2bvzMAm50c6scOLis0p8sY+2ig8xmxhwmxmXQ==",
+  "dgSpecHash": "JIfC4nD/4UtEzcTV/8jNrnzrvz+g3tTnGKzDttOCfiAz+u3AqCha7IcSZ+a/p/pr3/eGU5NlJG7pRbKwo1RN4A==",
   "success": true,
   "projectFilePath": "C:\\Users\\s2101048\\OneDrive - Business College Helsinki\\Työpöytä\\dotnet-framework\\osa-1\\TurboReader\\TurboReader\\TurboReader.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "expectedPackageFiles": [
+    "C:\\Users\\s2101048\\.nuget\\packages\\fluentcommandlineparser\\1.4.3\\fluentcommandlineparser.1.4.3.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'FluentCommandLineParser 1.4.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "FluentCommandLineParser",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

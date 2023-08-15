@@ -28,4 +28,19 @@ namespace TurboReader
             return arvaus;
         }
     }
+    public class Checks
+    {
+        public static bool IsInt32(string prompt)
+        {
+            try
+            {
+                int lol = Convert.ToInt32(prompt);
+                return true;
+            }
+            catch (FormatException)
+            {
+                return false;
+            }
+        }
+    }
 }
