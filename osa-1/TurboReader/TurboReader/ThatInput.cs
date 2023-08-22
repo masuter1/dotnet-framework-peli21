@@ -43,4 +43,12 @@ namespace TurboReader
             }
         }
     }
+    public class FileInput
+    {
+        public static int[] ReadInts(string prompt)
+        {
+            string[] lines = File.ReadAllLines(prompt);
+            // Figure out a way to read ints from a file
+        }
+    }
 }
