@@ -7,7 +7,8 @@ class Program
     public static void Main(string[] args)
     {
         string[] notNumber;
-        string filePath = "sanat.txt";
+        // Määritetään argumentit
+        string filePath = "luvut.txt";
 
         var p = new FluentCommandLineParser();
 
