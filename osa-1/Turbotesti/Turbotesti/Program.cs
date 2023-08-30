@@ -6,7 +6,6 @@ class Program
 {
     public static void Main(string[] args)
     {
-        string[] notNumber;
         // Määritetään argumentit
         string filePath = "luvut.txt";
 
@@ -17,6 +16,18 @@ class Program
 
         p.Parse(args);
 
+        try
+        {
+
+        }
+
+        // Ei Numerot Debug
+        var notNumbers = new Dictionary<int, string>();
+        notNumbers = (Dictionary<int, string>)FileInput.ReadNaNs(filePath);
+        foreach (KeyValuePair<int, string> kvp in notNumbers)
+        {
+            Console.WriteLine("Line: {0}, String: {1}", kvp.Key, kvp.Value);
+        }
 
 
     }

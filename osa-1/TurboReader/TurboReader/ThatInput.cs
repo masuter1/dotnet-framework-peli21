@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Collections.Generic;
 using Microsoft.Win32.SafeHandles;
+using Fclp.Internals.Parsing.OptionParsers;
 
 namespace TurboReader
 {
@@ -60,10 +61,40 @@ namespace TurboReader
             for (int i = 0; i < lines.Length; i++)
             {
                 if (!Checks.IsInt32(lines[i])) {
-                    whereNaNs.Add(i, lines[i]);
+                    whereNaNs.Add(i+1, lines[i]);
                 }
             }
             return whereNaNs;
+        }
+        public static bool CanReadFile(string prompt)
+        {
+            const char nulchar = '\0';
+            const int charstocheck = 8000;
+            int nulcount = 0;
+            //muista try lause
+            using (var streamreader = new StreamReader(prompt))
+            {
+                for (var i = 0; i < charstocheck; i++)
+                {
+                    if (streamreader.EndOfStream)
+                    {
+                        return false;
+                    }
+                    if ((char) streamreader.Read() == nulchar)
+                    {
+                        nulcount++;
+                        if (nulcount >= 1)
+                        {
+                            return true;
+                        }
+                    }
+                    else
+                    {
+                        nulcount = 0;
+                    }
+                }
+            }
+            return false;
         }
     }
 }

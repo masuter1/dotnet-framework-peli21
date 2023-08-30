@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Turbotesti": {
+      "commandName": "Project",
+      "commandLineArgs": "-f \"sanat.txt\""
+    }
+  }
+}

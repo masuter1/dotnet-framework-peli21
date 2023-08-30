@@ -15,4 +15,10 @@
     <ProjectReference Include="..\..\TurboReader\TurboReader\TurboReader.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="sanat.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
