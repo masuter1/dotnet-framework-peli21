@@ -49,7 +49,8 @@ namespace TurboReader
         public static int[] ReadInts(string prompt)
         {
             string[] lines = File.ReadAllLines(prompt);
-            int[] ints = lines.Select(int.Parse).ToArray();
+            int val = 0;
+            int[] ints = (from s  in lines where int.TryParse(s, out val) select val).ToArray();
             // Figure out a way to read ints from a file
             return ints;
         }
@@ -68,6 +69,10 @@ namespace TurboReader
         }
         public static bool CanReadFile(string prompt)
         {
+            if (!File.Exists(prompt))
+            {
+                return false;           // Jos tiedosto on olemassa, truesta tulee false ja if ei toteudu
+            }
             const char nulchar = '\0';
             const int charstocheck = 8000;
             int nulcount = 0;
@@ -78,14 +83,14 @@ namespace TurboReader
                 {
                     if (streamreader.EndOfStream)
                     {
-                        return false;
+                        return true;
                     }
                     if ((char) streamreader.Read() == nulchar)
                     {
                         nulcount++;
                         if (nulcount >= 1)
                         {
-                            return true;
+                            return false;
                         }
                     }
                     else
