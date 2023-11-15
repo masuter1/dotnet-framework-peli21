@@ -3,6 +3,8 @@ using System.Linq;
 using System.Collections.Generic;
 using Microsoft.Win32.SafeHandles;
 using Fclp.Internals.Parsing.OptionParsers;
+using System.Text.RegularExpressions;
+using System.Runtime.CompilerServices;
 
 namespace TurboReader
 {
@@ -28,6 +30,44 @@ namespace TurboReader
             }
             return arvaus;
         }
+        public static char CharQuery(string prompt, string[] excludedChars, string errExcluded = "Annoit jo {0}", string errNotChar = "{0} ei ole kirjain")
+        {
+            const string promptField = ": _";
+            int promptLenght = prompt.Length + promptField.Length;
+            string input = "this is not a char";
+            bool existsOnList;
+            bool isChar;
+            while (true)
+            {
+                (int cursorPosX, int cursorPosY) = Console.GetCursorPosition();
+                existsOnList = false;
+                isChar = false;
+                Console.Write(prompt + promptField);
+                Console.SetCursorPosition(cursorPosX + promptLenght - 1, cursorPosY);
+                input = Console.ReadLine();
+                if (excludedChars.Contains(input.ToLower()))
+                {
+                    existsOnList = true;
+                }
+                if (Checks.IsChar(input))
+                {
+                    isChar = true;
+                }
+
+                if (input != null && Regex.IsMatch(input, @"^[a-zA-Z]+$") && isChar && !existsOnList)
+                {
+                    return Convert.ToChar(input);
+                }
+                else if (input != null && Regex.IsMatch(input, @"^[a-zA-Z]+$") && isChar)
+                {
+                    Console.WriteLine(errExcluded, input);
+                }
+                else
+                {
+                    Console.WriteLine(errNotChar, input);
+                }
+            }
+        }
     }
     public class Checks
     {
@@ -36,6 +76,18 @@ namespace TurboReader
             try
             {
                 int lol = Convert.ToInt32(prompt);
+                return true;
+            }
+            catch (FormatException)
+            {
+                return false;
+            }
+        }
+        public static bool IsChar(string prompt)
+        {
+            try
+            {
+                char lol = Convert.ToChar(prompt);
                 return true;
             }
             catch (FormatException)

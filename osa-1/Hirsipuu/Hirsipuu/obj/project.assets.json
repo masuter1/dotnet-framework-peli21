@@ -14,6 +14,19 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "TurboReader/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "FluentCommandLineParser": "1.4.3"
+        },
+        "compile": {
+          "bin/placeholder/TurboReader.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TurboReader.dll": {}
+        }
       }
     }
   },
@@ -33,11 +46,17 @@
         "lib/net35/FluentCommandLineParser.pdb",
         "lib/net35/FluentCommandLineParser.xml"
       ]
+    },
+    "TurboReader/1.0.0": {
+      "type": "project",
+      "path": "../../TurboReader/TurboReader/TurboReader.csproj",
+      "msbuildProject": "../../TurboReader/TurboReader/TurboReader.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "FluentCommandLineParser >= 1.5.0.20-commands"
+      "FluentCommandLineParser >= 1.5.0.20-commands",
+      "TurboReader >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -66,7 +85,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\s2101048\\OneDrive - Business College Helsinki\\Työpöytä\\dotnet-framework\\osa-1\\TurboReader\\TurboReader\\TurboReader.csproj": {
+              "projectPath": "C:\\Users\\s2101048\\OneDrive - Business College Helsinki\\Työpöytä\\dotnet-framework\\osa-1\\TurboReader\\TurboReader\\TurboReader.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -100,7 +123,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   },
