@@ -54,11 +54,11 @@ namespace TurboReader
                     isChar = true;
                 }
 
-                if (input != null && Regex.IsMatch(input, @"^[a-zA-Z]+$") && isChar && !existsOnList)
+                if (input != null && Regex.IsMatch(input, @"^[a-zA-ZåÅäÄöÖ]+$") && isChar && !existsOnList)
                 {
                     return Convert.ToChar(input);
                 }
-                else if (input != null && Regex.IsMatch(input, @"^[a-zA-Z]+$") && isChar)
+                else if (input != null && Regex.IsMatch(input, @"^[a-zA-ZåÅäÄöÖ]+$") && isChar)
                 {
                     Console.WriteLine(errExcluded, input);
                 }
@@ -102,7 +102,7 @@ namespace TurboReader
         {
             string[] lines = File.ReadAllLines(prompt);
             int val = 0;
-            int[] ints = (from s  in lines where int.TryParse(s, out val) select val).ToArray();
+            int[] ints = (from s in lines where int.TryParse(s, out val) select val).ToArray();
             // Figure out a way to read ints from a file
             return ints;
         }
@@ -118,6 +118,13 @@ namespace TurboReader
                 }
             }
             return whereNaNs;
+        }
+        public static string[] ReadStrings(string prompt)
+        {
+            string[] lines = File.ReadAllLines(prompt);
+            string text = "a";
+            string[] pureText = (from s in lines where Regex.IsMatch(s, @"^[a-zA-ZåÅäÄöÖ]+$") select s).ToArray();
+            return pureText;
         }
         public static bool CanReadFile(string prompt)
         {
